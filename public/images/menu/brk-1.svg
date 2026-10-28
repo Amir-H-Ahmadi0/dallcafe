@@ -1,0 +1,23 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A373"/>
+      <stop offset="100%" stop-color="#BC8E5E"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14"/>
+      <feOffset dx="0" dy="10" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.35"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="offsetblur"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <circle cx="400" cy="400" r="285.6" fill="none" stroke="#FFF3E0" stroke-width="3" opacity="0.35"/>
+  <g filter="url(#s)">
+      <circle cx="400" cy="495.2" r="149.60000000000002" fill="#FFE0B2" opacity="0.95"/>
+      <path d="M304.8 440.8 Q400 386.4 495.2 440.8" fill="none" stroke="#D4A373" stroke-width="38.080000000000005" stroke-linecap="round"/>
+      <rect x="318.4" y="508.8" width="163.2" height="48.96" rx="24.48" fill="#FFCC80" opacity="0.9"/>
+      <ellipse cx="400" cy="631.2" rx="136" ry="48.96" fill="none" stroke="#D4A373" stroke-width="32.64" opacity="0.6"/>
+    </g>
+  <text x="400" y="736" font-family="Vazirmatn, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FFF3E0" text-anchor="middle" opacity="0.9">Persian Omelette</text>
+</svg>

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.idea/
+*.tsbuildinfo
+/data/
+!app/api/admin/data/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
